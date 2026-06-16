@@ -55,6 +55,7 @@ function taskReducer(state = initialState, action) {
       };
     }
 
+    
     case REMOVE_TASK: {
       const updatedTasks = state.tasks.filter((t) => t.id !== action.payload);
       return {
