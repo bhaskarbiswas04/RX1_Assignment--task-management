@@ -24,7 +24,6 @@ function App() {
     // store.dispatch(removeTask(2));
 
     unsubscribe();
-    console.log("--- End of Test Sequence ---");
   }, []);
 
   const handleAddTaskSubmit = (e) => {
